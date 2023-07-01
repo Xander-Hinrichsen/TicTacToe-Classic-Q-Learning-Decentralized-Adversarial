@@ -28,3 +28,65 @@ For each episode:
 
 ### Epsilon Decay Schedule
 <img src="stats/epsilon.png" alt="Image description" width="49%" height="49%">
+
+
+### Example of Me playing as O against learned X_policy
+```
+test_env.reset()
+test_env.play_against_policy(X_policy, mode='O', deterministic=True)
+
+  |   |  
+---------
+  |   |  
+---------
+  |   |  
+press enter for ai move
+
+  |   |  
+---------
+  | X |  
+---------
+  |   |  
+choose your move (0-8)
+1
+  | O |  
+---------
+  | X |  
+---------
+  |   |  
+press enter for ai move
+
+X | O |  
+---------
+  | X |  
+---------
+  |   |  
+choose your move (0-8)
+8
+X | O |  
+---------
+  | X |  
+---------
+  |   | O
+press enter for ai move
+
+X | O |  
+---------
+X | X |  
+---------
+  |   | O
+choose your move (0-8)
+5
+X | O |  
+---------
+X | X | O
+---------
+  |   | O
+press enter for ai move
+
+X | O |  
+---------
+X | X | O
+---------
+X |   | O
+```

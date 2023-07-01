@@ -97,5 +97,5 @@ X | X | O
 ---------
 X |   | O
 
-##notice that it not only plays optimally, but forks me as well
+##notice that it not only plays optimally, but forks me in doing so
 ```

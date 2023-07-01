@@ -5,6 +5,7 @@ X and O trained simultaneously by playing against each other, 1 million times (X
 
 
 ```
+s_x-turn = environment.reset()
 For each episode:
   #X's choice
   X chooses a from state s_x-turn using e-greedy, producing x_reward, s_o-turn'
@@ -20,6 +21,8 @@ For each episode:
 
   #update X
   Q(s_x-turn,a) = Q(s_x-turn,a) + lr * (x_reward + gamma*max_a'Q(s_x-turn',a') - Q(s_x-turn,a))
+
+  s_x-turn = s_x-turn'
 ```
 
 ### Experiments:

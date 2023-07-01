@@ -1,5 +1,5 @@
 # Classic Tabular Q-Learning with Self-play
-X and O trained simultaneously by playing against each other, 1 million times
+X and O trained simultaneously by playing against each other, 1 million times (X always plays first)
 
 ### The training algorithm:
 

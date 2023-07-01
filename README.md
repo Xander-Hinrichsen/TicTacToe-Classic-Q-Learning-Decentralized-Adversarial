@@ -5,6 +5,7 @@ X and O trained simultaneously by playing against each other, 1 million times (X
 
 
 ```
+#create empty board
 s_x-turn = environment.reset()
 For each episode:
   #X's choice

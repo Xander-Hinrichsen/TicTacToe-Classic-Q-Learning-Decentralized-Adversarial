@@ -1,4 +1,4 @@
-# Classic Tabular Q-Learning with Self-play
+# Classic Tabular Q-Learning, Learning TicTacToe with adversarial leraning
 X and O trained simultaneously by playing against each other, 1 million times (X always plays first)
 
 ### The training algorithm:
